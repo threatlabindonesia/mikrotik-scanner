@@ -25,6 +25,9 @@ Make sure the following are installed:
 Install with:
 ```bash
 pip install python-nmap
+pip install scapy
+git clone https://github.com/threatlabindonesia/mikrotik-scanner.git
+cd mikrotik-scanner
 ```
 
 ### Nmap (CLI tool)
@@ -34,11 +37,13 @@ This script uses the system-installed `nmap` command-line tool.
 ```bash
 sudo apt update
 sudo apt install nmap
+sudo apt install xl2tpd
 ```
 
 #### On macOS:
 ```bash
 brew install nmap
+brew install xl2tpd
 ```
 
 #### On Windows:
