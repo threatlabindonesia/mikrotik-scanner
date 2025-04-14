@@ -55,7 +55,7 @@ def load_bulk_targets(file_path):
 def main():
     parser = argparse.ArgumentParser(
         description="Network Port Scanner with Banner Detection (MikroTik Aware)",
-        epilog="Example: python3 scanner.py --ip 203.34.118.33 --port 1701"
+        epilog="Example: python3 scanner.py --ip x.x.x.x. --port 1701"
     )
 
     parser.add_argument('--ip', help='Target IP address (single)')
